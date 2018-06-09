@@ -4,8 +4,7 @@ def my_select(collection)
  num = 0  
  
  while num < collection.length 
-   arr << yield(collection
-   [num])
+   arr << yield(collection[num])
    num +=1 
  end
  arr
