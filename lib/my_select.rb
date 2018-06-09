@@ -4,7 +4,7 @@ def my_select(collection)
  num = 0  
  
 
-   if yield(collection[num] == true)
+   if yield(collection[num]) == true
     arr << collection[num]
    num +=1 
   end 
