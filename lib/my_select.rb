@@ -3,9 +3,9 @@ def my_select(collection)
  arr = []
  num = 0  
  block_given?
- while num < collection.length 
-   arr << yield(collection[num])
+
+   arr << yield(collection)
    num +=1 
- end
+
  arr
 end
