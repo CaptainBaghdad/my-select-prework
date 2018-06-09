@@ -4,7 +4,7 @@ def my_select(collection)
  num = 0  
  block_given?
  while num < collection.length 
-   arr << yield(num)
+   arr << yield(collection[num])
    num +=1 
  end
  arr
